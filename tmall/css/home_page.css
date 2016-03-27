@@ -1,0 +1,535 @@
+/*首页相关样式*/
+.head_content{
+	height: 153px;
+	background: url(../img/bg_ico.jpg) no-repeat 18px 0px;
+}
+.head_content_top{
+	height: 92px;
+	position: relative;
+}
+#search{
+	width: 407px;
+	height: 30px;
+	border: 3px solid #c40000;
+	font: 14px/30px ""宋体;
+	color: #7d6666;
+	position: absolute;
+	top: 25px;
+	left: 383px;
+}
+.search_nav{
+	position: absolute;
+	top: 61px;
+	left: 383px;
+}
+.tm_play img{
+	position: absolute;
+	top: 9px;
+	right: 70px;
+}
+.search_nav li{
+	float: left;
+}
+.search_nav a{
+	font: 14px/32px "宋体";
+	color: #999;
+}
+.search_nav .red a{
+	color: #c40000;
+}
+.search_nav .search_line{
+	font: 14px/32px "宋体";
+	color: #ccc;
+	margin: 0px 12px;
+}
+#search_btn{
+	width: 90px;
+	height: 36px;
+	font: 14px/30px ""宋体;
+	color: #fff;
+	background-color: #c40000;
+	cursor: pointer;
+	position: absolute;
+	top: 25px;
+	right: 382px;
+}
+.head_content_bottom{
+	height: 36px;
+	margin-top: 24px;
+	margin-left: 240px;
+}
+.head_content_bottom li{
+	float: left;
+	*vertical-align: top;
+}
+.head_content_bottom a{
+	font: 16px/36px "宋体";
+	color: #000;
+	font-weight: bold;
+}
+.em_line{
+	font-size: 16px;
+	line-height: 36px;
+	color: #ccc;
+	margin: 0px 15px 0px 14px;
+	font-weight: bold;
+}
+.banner{
+	height: 499px;
+	background: url(../img/big_bg.jpg) no-repeat center top;
+	position: relative;
+}
+.sideBar_left{
+	width: 190px;
+	height: 499px;
+	background-color: #300b10;
+	position: absolute;
+	top: 0px;
+	left: 18px;	
+	font-size: 0px;
+	word-spacing: 2px;
+}
+.sideBar_left a{
+	font: 14px/31px  "宋体";
+	color: #fff;
+}
+.sideBar_left .xieline{
+	font: 14px/31px  "宋体";
+	color: #fff;
+}
+.Skirt{
+	margin-top: 2px;
+}
+.oth_ico{
+	background: url(../img/oth_ico.png) no-repeat;
+}
+.ico_skirt{
+	width: 13px;
+	height: 12px;
+	background-position:0px 0px;
+	float: left;
+	overflow: hidden;
+	margin: 11px 8px 0px 14px;
+}
+.ico_men{
+	width: 15px;
+	height: 13px;
+	background-position:0px -13px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 8px 0px 13px;
+}
+.ico_shoes{
+	width: 15px;
+	height: 13px;
+	background-position:0px -27px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 8px 0px 13px;
+}
+.ico_cosmetics{
+	width: 7px;
+	height: 14px;
+	background-position:0px -41px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 12px 0px 17px;
+}
+.ico_watch{
+	width: 14px;
+	height: 13px;
+	background-position:0px -56px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 9px 0px 13px;
+}
+.ico_tel{
+	width: 10px;
+	height: 14px;
+	background-position:0px -70px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 11px 0px 16px;
+}
+.ico_baby{
+	width: 13px;
+	height: 14px;
+	background-position: 0 -85px;
+	float: left;
+	overflow: hidden;
+	margin: 9px 11px 0px 16px;
+}
+.sideBar_right{
+	position: absolute;
+	top: 27px;
+	right: 47px;	
+}
+.sideBar_right img{
+	width: 170px;
+	height: 440px;
+}
+.fix{
+	width: 35px;
+	height: 493px;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	right: 42px;
+	z-index: 1;
+}
+.ico_double_eleven{
+	width: 35px;
+	height: 48px;
+	background-position: 0 -389px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_Raiders{
+	width: 35px;
+	height: 45px;
+	background-position: 0 -437px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_privilege{
+	width: 35px;
+	height: 44px;
+	background-position: -16px 0;
+	overflow: hidden;
+	float: left;	
+	cursor: pointer;
+}
+.ico_shopping_car{
+	width: 35px;
+	height: 99px;
+	background-position: -16px -45px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_pay{
+	width: 35px;
+	height: 46px;
+	background-position: -16px -145px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_attention{
+	width: 35px;
+	height: 46px;
+	background-position: -54px 0px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_store{
+	width: 35px;
+	height: 46px;
+	background-position: -54px -47px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_saw{
+	width: 35px;
+	height: 46px;
+	background-position: -54px -94px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.ico_Recharge{
+	width: 35px;
+	height: 28px;
+	background-position: -93px 0px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+.characteristic_market{
+	height: 358px;
+}
+.chara_market_head{
+	height: 40px;
+	background-color: #f5f5f5;
+}
+.chara_market_head .special{
+	font-size: 17px;
+	line-height: 29px;
+	font-family: "微软雅黑";
+	color: #010009;
+	float: left;
+	padding-top: 11px;
+}
+.chara_market_head img{
+	margin: 20px 6px 0 6px;
+}
+.chara_content{
+	height: 318px;
+}
+.chara_content img{
+	float: left;
+}
+.chara_content_right{
+	width: 900px;
+	height: 318px;
+	float: right;
+}
+.renew,.mobile{
+	width: 298px;
+	height: 153px;
+	position: relative;
+	float: left;
+}
+.first_line{
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: bold;
+	padding: 34px 0px 0px 21px;
+}
+.renew_text{
+	font-size: 12px;
+	line-height: 21px;
+	color: #645a58;
+	padding-left: 21px;
+}
+.uniqlo img{
+	padding:5px 0px 0px 21px;
+}
+.new_pic img{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+.free{
+	width: 298px;
+	height: 153px;
+	position: relative;
+	float: left;
+	background: url(../img/vertical.jpg) no-repeat 0 34px;	
+}
+.yadun img{
+	position: absolute;
+	top: 32px;
+	right: 35px;
+}
+.pic_honor img{
+	position: absolute;
+	top: 9px;
+	right: 57px;
+}
+.hot_brand{
+	height: 364px;
+}
+.hot_brand_head{
+	height: 45px;
+	background-color: #f5f5f5;
+}
+.hot_brand_head .hot_pic{
+	font-size: 17px;
+	line-height: 29px;
+	font-family: "微软雅黑";
+	color: #010009;
+	float: left;
+	padding-top: 16px;
+}
+.hot_brand_head img{
+	margin: 25px 0px 0 5px;
+}
+.brand_content img{
+	float: left;
+}
+.brand_content_R{
+	width: 900px;
+	height: 318px;
+	float: right;
+	background-color: greenyellow;
+}
+.brand{
+	float: left;
+}
+.price_notice{
+	height: 100px;
+	background:url(../img/price_bg.jpg) repeat-x;
+}
+.price_notice img{
+	margin-top: 9px;
+}
+.hot_market{
+	height: 629px;
+}
+.hot_market_head{
+	height: 39px;
+	background-color: #f5f5f5;
+}
+.hot_channel{
+	font-size: 17px;
+	line-height: 29px;
+	font-family: "微软雅黑";
+	color: #010009;
+	float: left;
+	padding-top: 10px;
+}
+.hot_market_head img{
+	margin: 18px 0px 0 5px;
+}
+.hot_content{
+	border-top: 12px solid #f5f5f5;	
+}
+.suit_dress{
+	width: 294px;
+	height: 590px;
+	border-right: 8px solid #f5f5f5;
+	overflow: hidden;
+	float: left;
+}
+.hot_market_bottom{
+	height: 602px;
+}
+.gril_meetingplace{
+	width: 274px;
+	height: 70px;
+	margin: 10px 0px 0px 20px;
+}
+.gril_meetingplace img{
+	float: left;
+	margin-right: 14px;
+}
+.meetingplace{
+	display: block;
+	padding-top: 11px;
+}
+.meetingplace a{
+	font-size: 15px;
+	line-height: 23px;
+	color: #2f2e1a;
+}
+.purchase{
+	display: block;
+}
+.purchase a{
+	font-size: 13px;
+	line-height: 21px;
+	color: #858587;
+}
+.new_winter{
+	width: 274px;
+	height: 67px;
+	margin: 17px 0px 0px 20px;
+}
+.new_winter img{
+	float: left;
+	margin-right: 14px;
+}
+.all_match{
+	width: 274px;
+	height: 72px;
+	margin: 17px 0px 0px 20px;
+}
+.all_match img{
+	float: left;
+	margin-right: 14px;
+}
+.outdoor_sport{
+	width: 294px;
+	height: 590px;
+	overflow: hidden;
+	float: left;
+}
+.special_bag{
+	height: 100px;
+	background:url(../img/price_bg.jpg) repeat-x;
+}
+.special_bag img{
+	margin-top: 10px;
+}
+.flyco{
+	height: 100px;
+	background-color: #f5f5f5;
+}
+.flyco img{
+	margin-top: 10px;
+}
+.subaru{
+	height: 198px;
+	background-color: #f5f5f5;
+}
+.more_type,.subaru_pic{
+	position: relative;
+}
+.more_type img{
+	position: absolute;
+	top: 40px;
+	left: 500px;
+}
+.more_type .more_type_text{
+	position: absolute;
+	top: 55px;
+	left: 526px;
+}
+.more_type_text a{
+	font-size: 17px;
+	color: #434343;	
+}
+.subaru_pic img{
+	position: absolute;
+	top: 108px;
+}
+.guess_y_like{
+	height: 6699px;
+	background-color: #f5f5f5;
+}
+.guess_like_head{
+	height: 53px;
+	background: url(../img/guess_line.jpg) no-repeat 500px 0;
+}
+.guess_like_head a{
+	font: 24px/53px "宋体";
+	line-height: 53px;
+	color: #5c5c5c;
+	margin-left: 552px;
+}
+.guess_like_content{
+	height: 6646px;
+	overflow: hidden;
+}
+.charge_pal{
+	width: 234px;
+	height: 319px;
+	float: left;
+}
+.techrich a{
+	font-size: 13px;
+	color: #6f7374;
+	line-height: 18px;
+}
+.money{
+	font-size: 12px;
+	color: #e70708;
+}
+.tm_ensure{
+	width: 232px;
+	height: 319px;
+}
+.crocs{
+	width: 232px;
+	height: 319px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

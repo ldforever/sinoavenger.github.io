@@ -1,0 +1,79 @@
+/*IE兼容问题*/
+.fix{
+	*position: absolute;
+	*top: 80px;
+	*right: 39px;
+}
+.characteristic_market{
+	*height: 338px;
+}
+.suit_dress li{
+	float: left;
+}
+.gril_meetingplace{
+	width: 274px;
+	height: 70px;
+	margin: 10px 0px 0px 10px;
+}
+.new_winter{
+	width: 274px;
+	height: 67px;
+	margin: 17px 0px 0px 10px;
+}
+.all_match{
+	width: 274px;
+	height: 72px;
+	margin: 17px 0px 0px 10px;
+}
+.subaru_pic img{
+	position: absolute;
+	top: 93px;
+}
+.seven{
+	width: 251px;
+	height: 50px;
+	border-right:1px solid #cdcdcd;
+	position: relative;
+	top: 50px;
+	left: 75px;
+}
+.office{
+	margin-right: 180px;
+}
+.banner_text{
+	margin: 10px 40px 0px 0px;
+}
+.logistics img{
+	margin: 15px 0px 0px 5px;
+}
+.selling{
+	margin: 10px 100px 0px 0px;
+}
+.Baby_details img{
+	margin: 22px 19px 0px 0px;
+}
+.meizu_office{
+	width: 420px;
+	height: 637px;
+	float: left;
+	margin-left:50px;
+	background-color: pink;
+}
+.Flagship_store{
+	margin-top: 0px;
+}
+.side_content{
+	width: 190px;
+	height: 752px;
+	margin-left: 40px;
+	float: left;
+	background-color: darkblue;
+}
+.logistics_main .descripte_t{
+	margin-left: 16px;
+}
+
+
+
+
+

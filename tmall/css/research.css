@@ -1,0 +1,740 @@
+/*搜索页相关样式*/
+.box{
+	width: 1349px;
+	height: 4390px;
+/*	background-color: pink;*/
+}
+.tm_page .ico_home{
+	width: 13px;
+	height: 11px;
+	background-position:0px 0px;
+	float:left;
+	margin: 7px 3px 0px 80px;
+	overflow: hidden;
+}
+.head_search{
+	height: 99px;
+	position: relative;
+}
+.tmall_logol{
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+.mall_search{
+	width: 910px;
+	height: 99px;
+	padding-left: 360px;
+}
+.tm_castle{
+	width: 190px;
+	height: 84px;
+	float: right;
+}
+.search_banner{
+	width: 597px;
+	height: 64px;
+	position: relative;
+	top: 29px;	
+}
+form{
+	width: 597px;
+	height: 36px;
+	position: relative;
+}
+#search{
+	width: 591px;
+	height: 30px;
+	border: 3px solid #296ecc;
+	font: 13px/30px ""宋体;
+	color: #000;
+	position: absolute;
+}
+#search_btn{
+	width: 87px;
+	height: 30px;
+	font: 14px/30px "宋体";
+	color: #fff;
+	background-color: #296ecc;
+	cursor: pointer;
+	position: absolute;
+	top: 3px;
+	right: 2px;	
+}
+.subNav{
+	font-size: 0px;
+}
+.subNav a{
+	font: 12px/29px "宋体";
+	color: #999;
+}
+.subNav .line{
+	font-size: 14px;
+	padding: 6px 12px;
+}
+.banner{
+	height: 193px;
+}
+.banner_nav{
+	width: 1190px;
+	height: 32px;
+	margin-left: 80px;
+	font-size: 0px;
+	border-bottom: 1px solid #0f64c2;
+}
+.banner_nav a{
+	margin-top: 2px;
+	font: 14px/30px "宋体";
+	color: #333333;
+	font-weight: bold;
+}
+.banner_nav .word_sp{
+	margin-right: 57px;
+}
+.office{
+	margin-right: 200px;
+}
+.tmall_home{
+	margin-left: 30px;
+}
+.reception{
+	margin-right: 22px;
+}
+.Meizu_banner{
+	width: 1349px;
+	height: 160px;
+	background: url(../img/Meizu_banner.jpg) no-repeat center top;
+	margin: 0 auto;
+}
+.meizu_attention{
+	float: left;
+	padding: 20px 0px 0px 80px;
+}
+.banner_text{
+	width: 240px;
+	height: 140px;
+	background: url(../img/intro_banner.jpg) no-repeat center top;
+	background-color: #0e0f11;
+	float: right;
+	margin: 10px 78px 0px 0px;
+}
+.intro_banner a{
+	font-size: 12px;
+	line-height: 49px;
+	color: #fff;
+	margin-left: 97px;
+}
+.brand_text{
+	width: 205px;
+	margin-left: 15px;
+}
+.brand_text a{
+	font-size: 12px;
+	line-height: 18px;
+	color: #fff;
+}
+.main{
+	width: 1190px;
+	height: 2933px;
+	border-top: 1px solid #e5e5e5;
+	margin: 0 auto;
+}
+.breadCrumb{
+	height: 38px;
+	margin-bottom: 7px;
+	font-size: 0px;
+}
+.whole{
+	width: 380px;
+	height: 38px;
+	float: left;
+}
+.all a{
+	font-size: 13px;
+	color: #666;
+	line-height: 38px;
+}
+.select{
+	width: 116px;
+	height: 22px;
+	display: inline-block;
+	text-align: center;
+	border: 1px dashed #c40000;
+	border-radius: 2px;
+	margin-top: 7px;
+}
+.select a{
+	font: 13px/22px "宋体";
+	color: #c40000;
+}
+.symbol{
+	font-size: 10px;
+	color: #a9a9a9;
+	line-height: 38px;
+}
+input{
+	margin-top: 7px;
+}
+#meizu{
+	width: 162px;
+	height: 20px;
+	border: 1px solid #ccc;
+	font: 12px/20px "宋体";
+	color: #757575;
+}
+.total{
+	font-size: 12px;
+	color: #999999;
+	line-height: 38px;
+	float: right;
+}
+.menuContent{
+	width: 1188px;
+	height: 129px;
+	border: 1px solid #e6e2e1;
+}
+.classify{
+	width: 1189px;
+	height: 69px;
+	border-bottom: 1px solid #d1ccc7;
+}
+.digital_accessories{
+	height: 34px;
+	font-size: 0px;
+	border-bottom: 1px dashed #d1ccc7;
+}
+.c_digt_acc{
+	width: 118px;
+	height: 34px;
+	background-color: #f7f5f5;
+	float: left;
+}
+.c_digt_acc a,.detail_digt_acc a{
+	font-size: 13px;
+	line-height: 34px;
+	color: #806f66;
+}
+.c_digt_acc img{
+	margin: 11px 10px 0 13px;
+}
+.detail_digt_acc{
+	width: 1022px;
+	height: 34px;
+	font-size: 0px;
+	float: left;
+}
+.digital_numb{
+	font-size: 13px;
+	line-height: 34px;
+	color: #bfbfbf;
+}
+.more img{
+	margin-top: 9px;
+}
+.style{
+	height: 29px;
+	border-bottom: 1px dashed #d1ccc7;
+}
+.other_style{
+	width: 118px;
+	height: 29px;
+	background-color: #f7f5f5;
+	float: left;
+}
+.other_style a{
+	font-size: 13px;
+	line-height: 29px;
+	color: #806f66;
+	margin-left: 11px;
+}
+.two_style{
+	width: 1070px;
+	height: 29px;
+	float: left;
+}
+.two_style a{
+	font-size: 13px;
+	line-height: 29px;
+	color: #806f66;
+}
+.main_bott{
+	width: 1190px;
+	height: 34px;
+	margin-top: 11px;
+	background-color: #faf9f9;
+}
+.main_first{
+	width: 226px;
+	height: 24px;
+	padding: 5px;
+	float: left;
+}
+.main_first li{
+	float: left;
+	margin-left: -1px;
+}
+.search_ico{
+	background: url(../img/search_ico.png) no-repeat;
+}
+.ico_tarangel{
+	width: 7px;
+	height: 8px;
+	background-position:0px -24px;
+	float:left;
+	margin: 7px 5px 0px 3px;
+	overflow: hidden;
+}
+.main_b_all,.main_all{
+	width: 44px;
+	height: 22px;
+	border: 1px solid #ccc;
+}
+.main_b_all a{
+	font-size: 12px;
+	color: #b10000;
+	line-height: 22px;
+}
+.main_all a{
+	font-size: 12px;
+	color: #806f66;
+	line-height: 22px;
+}
+.ico_arrow{
+	width: 7px;
+	height: 8px;
+	background-position:0px -32px;
+	float:left;
+	margin: 7px 5px 0px 3px;
+	overflow: hidden;
+}
+.address{
+	width: 113px;
+	height: 22px;
+	border: 1px solid #cccccc;
+	margin: 5px;
+	font-size: 0;
+	float: left;
+}
+.address span{
+	font-size: 12px;
+	color: #b0a59f;
+	line-height: 22px;
+}
+.address .beijing{
+	font-size: 12px;
+	color: #806f66;
+	line-height: 22px;
+	width: 60px;
+	height: 22px;
+	display: inline-block;
+	text-align: center;
+}
+.ico_daojiao{
+	width: 6px;
+	height: 6px;
+	background-position:0px -49px;
+	float:left;
+    margin: -9px 5px 0px 50px;
+	overflow: hidden;
+}
+.price_product{
+	width: 100px;
+	height: 22px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 5px;
+	font-size: 0;
+}
+.money_b{
+	font-size: 12px;
+	color: #806f66;
+	line-height: 22px;
+	font-family: arial;
+}
+.center_line{
+	display: inline-block;
+	font: 15px/22px arial;
+	color: #806f66;
+	padding: 0 1px;
+	background-color: #f8f8f8;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.discount{
+	width: 255px;
+	height: 22px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 5px;
+	font-size: 0;
+}
+.discount input{
+	margin: 5px;
+}
+.discount label{
+	color: gray;
+    font: 12px/22px "宋体";
+  	display: inline-block;
+    position: relative;
+    top: -3px;
+}
+.discount img{
+	margin: 5px 0px 0 50px;
+}
+.store_bott{
+	width: 140px;
+	height: 22px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 5px;
+	font-size: 0;
+}
+.ico_stor_b{
+	width: 9px;
+	height:9px;
+	background-position:0px -82px;
+	float:left;
+    margin: 7px 3px 0px 3px;
+	overflow: hidden;
+}
+.ico_big_pic{
+	width: 9px;
+	height:9px;
+	background-position:0px -91px;
+	float:left;
+    margin: 7px 3px 0px 3px;
+	overflow: hidden;
+}
+.store_bott .big_pic{
+	display: inline-block;
+	color: #806f66;
+	padding: 0 6px 0 0;
+	background-color: #f8f8f8;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.ico_small_pic{
+	width: 9px;
+	height:9px;
+	background-position:0px -100px;
+	float:left;
+    margin: 7px 3px 0px 3px;
+	overflow: hidden;
+}
+.store_bott .small_pic{
+	display: inline-block;
+	color: #806f66;
+	padding: 0 6px 0 0;
+}
+.one_one{
+	font-size: 0;
+	float: right;
+}
+.one_one .one_text{
+	font: 15px/22px "微软雅黑";
+	color: #806f66;
+	display: inline-block;
+}
+.ico_one{
+	width: 45px;
+	height:20px;
+	background-position:0px -109px;
+	float:right;
+    margin:5px;
+	overflow: hidden;
+}
+
+
+.phone_content{
+	width: 1190px;
+	height: 2590px;
+}
+.meizu_detail{
+	width: 218px;
+	height: 350px;
+	border: 1px solid #f5f5f5;
+	border-radius: 2px;
+	float: left;
+}
+.price{
+	font: 15px/29px arial;
+	color: #d80000;
+	margin: 6px 0px 0px 4px;
+}
+.detail_text{
+	height: 26px;
+	font-size: 0px;
+}
+.detail_text .meizu_text{
+	font:12px/26px "宋体";
+	color: #d86600;
+}
+.detail_text .i_line{
+	font:12px/26px "宋体";
+	color: #613361;
+}
+.detail_text_meiz .meizu_text{
+	font:12px/17px "宋体";
+	color: #d86600;
+}
+.detail_text_meiz,.product_price{
+	font-size: 0px;
+}
+.detail_text_meiz .i_line{
+	font:12px/17px "宋体";
+	color: #613361;
+}
+.meizu_blue_text{
+	font:12px/17px "宋体";
+	color: #6c7f86;
+}
+.store a{
+	font-size: 12px;
+	line-height: 32px;
+	color: #999;
+	text-decoration: underline;
+}
+.custom_service{
+	width: 210px;
+	height: 33px;
+	font-size: 0px;
+	border-top: 1px solid #eee;
+}
+.deal{
+	font:12px/33px "宋体";
+	color: #979797;
+	float: left;
+}
+.deal_numb{
+	font:12px/33px "宋体";
+	color:#bc7d51;
+	float: left;
+}
+.qq img{
+	float: right;
+}
+.next_page{
+	width: 1190px;
+	height: 110px;
+	margin: 0 auto;
+	background: url(../img/cat_tm.jpg) no-repeat 525px 30px;
+	position: relative;	
+}
+.page{
+	width: 390px;
+	height: 40px;
+	position: absolute;
+	top: 50px;
+	left: 403px;
+}
+.click_next{
+	width: 189px;
+	height: 38px;
+	font-size: 0px;
+	float: left;
+	border: 1px solid #e3e3e3;
+	background-color: #efefef;
+}
+.click_next span,.prefix{
+	font-size: 12px;
+	line-height: 38px;
+	color: #8f8f8f;
+}
+.number{
+	width: 32px;
+	height: 18px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+	color: #8f8f8f;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.ascertain{
+	width: 44px;
+	height: 18px;
+	text-align: center;
+	border: 1px solid #cecece;
+	background-color: #f5f5f5;
+	display: inline-block;
+}
+.ascertain a{
+	font-size: 12px;
+	line-height: 18px;
+	color: #313131;
+}
+.foot_search{
+	width: 1190px;
+	height: 598px;
+	margin: 0 auto;
+}
+.foot_nav{
+	width: 1183px;
+	height: 28px;
+	font-size: 0;
+	border: 1px solid #ececec;
+}
+.ask{
+	font: 12px/28px "宋体";
+	color: #afacb7;
+}
+.foot_nav a,.foot_nav .foot_nav_line{
+	font: 12px/28px "宋体";
+	color: #615f62;
+}
+.foot_head{
+	width: 1190px;
+	height: 49px;
+}
+.foot_head h3{
+	font: 16px/46px "宋体";
+	color: #666;
+	float: left;
+}
+.more_hot{
+	font: 12px/46px "宋体";
+	color: #666;
+	float: right;
+}
+.foot_hot_product{
+	width: 1190px;
+	height: 334px;
+}
+.doraemon{
+	width: 229px;
+	height: 332px;
+	border: 1px solid #f5f5f5;
+	border-radius: 2px;
+	float: left;
+}
+.meizu_hot_pic img{
+	width: 219px;
+	height: 220px;
+	border: 1px solid #ccc;
+	margin: 4px 4px 0px 4px;
+}
+.product_price .price_1{
+	font-size:13px;
+	color: #cc0000;
+}
+.product_price .price_2{
+	font-size:18px;
+	color: #cc0000;
+}
+.product_price .price_3{
+	font-size:13px;
+	color: #999999;
+	text-decoration: line-through;
+}
+.product_price .detail_text_meiz .i_line{
+	font:12px/23px "宋体";
+	color: #613361;
+}
+.product_price .detail_text_meiz .i_line{
+	font:12px/23px "宋体";
+	color: #6c7f86;
+}
+.store_meizu{
+	height: 23px;
+}
+.store_meizu a{
+	font:12px/23px "宋体";
+	color: #999;
+	text-decoration: underline;
+	float: left;
+}
+.store_meizu .free{
+	font:12px/23px "宋体";
+	color: #999;
+	float: right;
+}
+.store .free{
+	font-size: 12px;
+	line-height: 32px;
+	color: #999;
+}
+.Baby_details{
+	width: 212px;
+	height: 28px;
+	border-top: 1px solid #f5f5f5;
+}
+.foot_research{
+	width: 1190px;
+	height: 84px;
+}
+.foot_research{
+	position: relative;
+}
+.foot_research #search{
+	width: 591px;
+	height: 30px;
+	border: 3px solid #ba1324;
+	font: 13px/30px ""宋体;
+	color: #000;
+	position: absolute;
+	top: 27px;
+	left: 330px;
+}
+.foot_research #search_btn{
+	width: 87px;
+	height: 30px;
+	font: 14px/30px "宋体";
+	color: #fff;
+	background-color: #60473b;
+	cursor: pointer;
+	position: absolute;
+	top: 30px;
+	right: -328px;	
+}
+.feedback{
+	height: 36px;
+	margin-top: 18px;
+}
+.feedback span{
+	font-size: 12px;
+	color: #0e1420;
+	line-height: 36px;
+}
+.immediately{
+	color: #3265b4;
+}
+.feedback img{
+	margin-top: 10px;
+}
+.search_foot{
+	height: 529px;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.foot_middle_search{
+	height: 363px;
+	background: url(../img/cat.jpg) no-repeat 90px 340px;
+	background-color: #fff;
+}
+.search_foot_bot{
+	margin: 0 auto;
+	height: 195px;
+	border-top: 1px solid #015cc5;
+	background-color: #0060c4;	
+}
+.search_foot_bot .nav_1{
+	height: 25px;
+	margin: 12px 0px 0px 90px;
+	font-size: 0px;
+	word-spacing: 7px;
+} 
+.search_foot_bot .nav_2{
+	height: 50px;
+	width: 1180px;
+	margin-right: 70px;
+	font-size: 0px;
+} 
+
+
+
+
+
+
+
+
+
