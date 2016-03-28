@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*Css Document*/
+
+
+/*样式重置(reset)*/
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0;}
+h1,h2,h3,h4,h5 { font-weight:normal;}
+em { font-style:normal;}
+li {list-style:none;}
+a {text-decoration:none;}
+img { border:none; vertical-align:top;}
+table { border-collapse:collapse;}
+input,textarea {outline:none;}
+textarea {resize:none; overflow:auto;}
+body { font-size:22px; font-family:"微软雅黑";}
+
+
+/*public*/
+.clear{zoom: 1;}
+.clear:after{content:"";display:block;clear: both;}
+.fl { float:left;}
+.fr { float:right;}
+#header,#nav,.banner,.content,#footer_tab { width:750px;margin:0 auto;}
+
+
+
+/*end public*/
+
+
+/*layout*/
+
+#header { width:700px; height: 88px;background:#2096d4;}
+
+.section { margin:0 15px;}
+.title { width:700px; height:62px; margin-bottom:9px;letter-spacing:2px;}
+
+
+/*end layout*/
+
+
+#header .bg1 { background:url("../img/header_bg.png") no-repeat; display:block; width:230px;
+        height:88px;background-position:24px -7px; }
+#header .bg2 { background:url("../img/header_bg.png") no-repeat; display:block; width:100px;
+        height:88px; background-position:0 -103px; }
+
+#nav {height:70px; position:relative; }
+#nav ul { position:absolute; left:27px; top:2px;}
+#nav li { float:left; width:116px;}
+#nav li a { display:block; width:116px; height:66px; line-height:66px;
+        font-size:24px; text-align:center; color:#4c5256; letter-spacing:2px;}
+#nav li a:hover { color:#2096d4; border-bottom:4px solid #2096d4;}
+
+.banner { width: 750px;height: 375px;position: relative;
+    margin: 0 auto;overflow: hidden; }
+.banner ul {height: 63px;}
+.banner p {letter-spacing:2px;position: absolute;bottom: 20px;right: 3px;}
+.banner img {width: 750px;height: 375px;}
+.banner span {display: inline-block;width: 11px;height: 11px;
+    background-color: #a0a1a3;border-radius: 50%;}
+.banner li {width: 750px;height: 63px;letter-spacing:2px;text-indent:22px;
+    background-color: #1d242a;opacity: 0.4;font-size:24px;line-height:63px;
+    color: #fff;position: absolute;bottom: -63px;left: 0;transition: 1s;}
+.banner .active {background-color:#caced1;}
+
+.title h3 { width:104px; height:62px; line-height:62px; color:#4c4d4d;
+        float:left; font-size:22px; border-bottom:2px solid #42a1d4;}
+.title a { width:596px; height:62px; line-height:62px;
+        font-size:22px; display:inline-block;float:right; color:#4c4d4d;
+        text-align:right; border-bottom:2px solid #c9ced5;}
+
+.hot_news_list {height:764px;}
+.hot_news_list li {width:700px;height:191px;border-bottom:1px solid #bec1c8;}
+.hot_news_list li:last-child{border-bottom:none;}
+.hot_news_list .img {float:left; width:204px; height:176px;margin-top:18px;}
+.hot_news_list .img a { display:block; width:204px; height:176px;}
+.hot_news_list img a:hover {}
+.hot_news_list .text{float:right; height:176px;width:386px;padding-top:20px;}
+.hot_news_list h4{ font-weight:normal; line-height:48px;height:48px;}
+.hot_news_list h4 a{ font-weight:normal; color:#65666a;letter-spacing:1px;}
+.hot_news_list p{ color:#65666a;letter-spacing:1px;line-height:48px;height:48px;position:relative;}
+.hot_news_list .active{ color:#65666a;}
+.hot_news_list span img { position:absolute;right:83px;bottom: 13px;}
+.hot_news_list em{ color:#bcbcbc;position:absolute;right:42px;bottom: 0;}
+
+
+.show .title{position:relative;}
+.show h3{position: absolute;top:20px;left: 0;}
+
+.hot_video {height:367px; margin-top:33px;}
+.hot_video li {margin-right:20px;}
+.hot_video p {text-align:center;font-size:22px;color:#818181;margin-top:10px;}
+
+
+
+#footer_tab ul{width: 750px;height: 98px;margin: 50px auto;position: relative;bottom: 0;right: 0;}
+#footer_tab p{margin: 0;letter-spacing:2px;}
+#footer_tab li{list-style: none;width: 186px;height: 98px;background-color: #4e555d;font-size: 25px;
+    color: #fff;text-align: center;line-height: 35px;
+    position: absolute;bottom: 0;}
+#footer_tab li img{vertical-align: top;text-align: center;margin-top: 12px;}
+.active{vertical-align: top;text-align: center;margin-top: 12px;}
+#footer_tab .active{background-color:#0e1b23;height: 118px;width: 188px;
+    border-radius: 25px 25px 0 0;position: absolute;bottom: 0;}
