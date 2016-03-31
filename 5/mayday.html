@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>五月天博物馆</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+        body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+
+        /* 轮播广告 */
+
+        .carousel {
+            height: 500px;
+            margin-bottom: 60px;
+        }
+
+        .carousel .item {
+            height: 500px;
+            background-color: #000;
+        }
+
+        .carousel .item img {
+            width: 100%;
+        }
+
+        .carousel-caption {
+            z-index: 10;
+        }
+
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        /* 简介 */
+
+        .summary {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .summary .col-md-4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* 特性 */
+
+        .feature-divider {
+            margin: 40px 0;
+        }
+
+        .feature {
+            padding: 30px 0;
+        }
+
+        .feature-heading {
+            font-size: 50px;
+            color: #2a6496;
+        }
+
+        .feature-heading .text-muted {
+            font-size: 28px;
+        }
+
+        /* 响应式布局 */
+
+        @media (max-width: 768px) {
+
+            .summary {
+                padding-right: 3px;
+                padding-left: 3px;
+            }
+
+            .carousel {
+                height: 300px;
+                margin-bottom: 30px;
+            }
+
+            .carousel .item {
+                height: 300px;
+            }
+
+            .carousel img {
+                min-height: 300px;
+            }
+
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            .feature-heading {
+                font-size: 34px;
+            }
+
+            .feature-heading .text-muted {
+                font-size: 22px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .feature-heading {
+                margin-top: 120px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Mayday五月天</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#ad-carousel">StayReal</a></li>
+                <li><a href="#summary-container">代表专辑</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">团员 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#feature-tab" data-tab="tab-chrome">阿信(Ashin)</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-firefox">怪兽(Monster)</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-safari">石头(Stone)</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-opera">玛莎(Matthew Tsai)</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-ie">冠佑(Ming)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- 广告轮播 -->
+<div id="ad-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#ad-carousel" data-slide-to="1"></li>
+        <li data-target="#ad-carousel" data-slide-to="2"></li>
+        <li data-target="#ad-carousel" data-slide-to="3"></li>
+        <li data-target="#ad-carousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/banner-1.jpg" alt="1 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>四面楚歌谁独唱</h1>
+
+                    <p>
+                        夜已央 天已亮 白昼隐没了星光<br/>
+                        像我们 都终将 葬身历史的洪荒
+                        当世人 都遗忘 我血液曾为谁滚烫
+                        入阵曲 伴我无悔的狂妄</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="http://v.yinyuetai.com/video/764903" target="_blank"
+                          role="button" target="_blank">入阵曲</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/banner-2.jpg" alt="2 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>晚安地球人</h1>
+
+                    <p>1986年，哈雷彗星接近地球，当时还是小学的我，带着文具店买的星座盘、望远镜、手电筒
+                        到附近的小公园，满心期待能在夜空中看见拖着火红尾巴的大火球。
+                        直到雨点落在黑夜中，我才收拾起失望的心，回家。</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="http://v.yinyuetai.com/video/728229" target="_blank"
+                          role="button">诺亚方舟</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/banner-3.jpg" alt="3 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>我独自流浪海角天边</h1>
+
+                    <p>     在失去你的风景里面
+                        　　你却占据了整个世界
+                        　　每一张相片 每一个房间 每一滴眼泪
+                        　　在充满你的回忆里面
+                        　　我独自一人和眼泪周旋
+                        　　一步步走向 孤单的明天
+                        也许在来生的某个明天，我们能再写新的情节，一步步完成，最美残缺</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="http://v.yinyuetai.com/video/842271" target="_blank"
+                          role="button">步步</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/banner-4.jpg" alt="4 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>青春彼岸盛夏灿烂</h1>
+
+                    <p>此生唯一自传，如同诗一般无论多远未来读来依然一字一句一篇都灿烂</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="http://v.yinyuetai.com/video/371242" target="_blank"
+                          role="button">突然好想你</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/bannner-5.jpg" alt="5 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>最美的梦</h1>
+
+                    <p>能不能暂时把你的梦想给我　在勇气快消失的时候
+                        　总有一天　要人们叫我披头　最后没成功　也做过最美的梦
+                    </p>
+
+                    <p><a class="btn btn-lg btn-primary" href="http://v.yinyuetai.com/video/371242" target="_blank"
+                          role="button">约翰蓝侬</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#ad-carousel" data-slide="prev"><span
+            class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#ad-carousel" data-slide="next"><span
+            class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+
+<!-- 主要内容 -->
+<div class="container summary">
+
+    <!-- 简介 -->
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+            <img class="img-circle" src="images/demo-1.jpg" alt="第二人生">
+
+            <h2>第二人生</h2>
+
+            <p>《第二人生》是一张概念完整，内容言之有物，旋律和制作都很用心的“优的良品”。
+                专辑似乎沉迷于末日情结的宏大叙事中，看不到台式摇滚乐惯有的犀利批判。
+                这一次五月天似乎有意要脱离青春的怀抱，唱青春之后的又一人生；
+                专辑在共性方面除了有摇滚这一大特色，在内容方面也多以青春、梦想、现实、残酷为主，
+                从中还不忘增添励志的色彩，因此五月天的音乐专辑向来有着很大的共鸣性，
+                在根本上说是抓住了一个核心群体。
+                从音乐中心主题来看，五月天这一次是把“末日”作为专辑所要探讨的主题之一，
+                在中心表现上似乎更有深度与意义。不过回过头来说，五月天又怎么会轻易丢弃掉他们的青春?不过是换了一种方式罢了。</p>
+
+            <p><a class="btn btn-default" href="http://www.xiami.com/album/70071?spm=a1z1s.3521865.23309997.25.5nbewz" role="button">
+                点击查看</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="images/demo-2.jpg" alt="后青春期的诗">
+
+            <h2>后青春期的诗</h2>
+
+            <p>最割人心最难愈合最秘密第一波爱情愈疗主打歌《你不是真正的快乐》，听到彷若内伤深处的弦乐前奏第一个音符一下，马上被吸入无法自己的内心漩涡，进入一个属于自己，也属于每个人的失恋故事中。歌曲一边进行，回忆一边继续，
+                到歌曲尾奏，与前奏一样的音符再次一下，彷若失恋伤痛再度轮回，一遍一遍的刺痛着不肯离去。
+                从挥霍浪费的青春到没说的一句抱歉，那些残存的人世眷恋和遗憾后悔，最后就化成一滴眼泪如烟消散在人世间。
+                烟雾飘散人生如梦，刚刚梦里如烟一生的不舍感慨，醒来都已化成枕畔干去的泪水，恍若隔世重生一般。本首编曲用古典吉他、长笛非常诗意的演奏，
+                诉说对过去的缅怀和对未来的憧憬，于是就这样青春延续，来到了后青春期。</p>
+
+            <p><a class="btn btn-default" href="http://www.xiami.com/album/305979?spm=a1z1s.3521865.23309997.3.5nbewz" role="button">点击查看</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="images/demo-3.jpg" alt="第一张创作专辑">
+
+            <h2>第一张创作专辑</h2>
+
+            <p>《五月天第一张创作专辑》是台湾乐团五月天发行第一张专辑，也是地下乐团开始冒出头，
+                对台湾地下摇滚圈具有时代性的一张专辑，以往被大众忽略的地下摇滚，经由五月天的走红，
+                开始被大众渐渐接受也造就了一股乐团风潮，五月天偏于流行的曲风也是会让大家接受的主要原因。
+                〈疯狂世界〉是大家认识五月天的第一首歌，这首歌有着校园派的年轻活力，打响了他们的第一步。
+                最让他们成功的是一曲〈志明与春娇〉，透过这两个众所皆知的菜市场名的爱情故事，
+                一时之间掳获了年轻人的心并开始使他们的歌在KTV中传唱。抒情曲〈拥抱〉更把气势带到最高点，
+                成功的把五月天从一个默默无闻的地下乐团，造就成了台湾乐坛的传奇。</p>
+
+            <p><a class="btn btn-default" href="http://www.xiami.com/album/15644?spm=a1z1s.3521865.23309997.103.5nbewz" role="button">点击查看</a></p>
+        </div>
+    </div>
+
+    <!-- 特性 -->
+
+    <hr class="feature-divider">
+
+    <ul class="nav nav-tabs" role="tablist" id="feature-tab">
+        <li class="active"><a href="#tab-chrome" role="tab" data-toggle="tab">阿信</a></li>
+        <li><a href="#tab-firefox" role="tab" data-toggle="tab">怪兽</a></li>
+        <li><a href="#tab-safari" role="tab" data-toggle="tab">石头</a></li>
+        <li><a href="#tab-opera" role="tab" data-toggle="tab">玛莎</a></li>
+        <li><a href="#tab-ie" role="tab" data-toggle="tab">冠佑</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab-chrome">
+            <div class="row feature">
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">阿信(Ashin)<span class="text-muted">五月天主唱</span></h2>
+
+                    <p class="lead">陈信宏，1975年12月6日生于台北市北投区，华语乐团五月天的主唱。
+                        阿信高中就读于国立台湾师范大学附属高级中学美术班，在校期间任师大附中吉他社社长、
+                        师大附中毕业生联谊会理事主席，
+                        高中时期就与怪兽、玛莎、石头组成乐队五月天。大学就读于台北实践大学室内设计学系。
+                        <br/>新浪微博@
+                        <a href="http://weibo.com/musiq?refer_flag=1001030101_&is_all=1" target="_blank">
+                            阿信V
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/1-ashin.jpg"
+                         alt="Ashin">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-firefox">
+            <div class="row feature">
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/2-monster.jpg"
+                         alt="Monster">
+                </div>
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">怪兽(Monster)<span class="text-muted">五月天团长兼吉他手</span>
+                    </h2>
+
+                    <p class="lead">温尚翊，1976年11月28日出生新竹市，毕业于台北师大附中、
+                        国立台湾大学社会系肄业。五月天团长兼吉他手、作曲人、演员。温尚翊高中就读于国立台湾师范大学附属高级中学。
+                        在校期间同阿信一起担任师大附中吉他社社长。后在师大附中吉他社相续结识了阿信、玛莎、石头开始了玩乐团的旅程。温尚翊大学就读于国立台湾大学社会系。
+                        <br/>新浪微博@
+                        <a href="http://weibo.com/monster531?refer_flag=1001030201_&is_all=1" target="_blank">
+                            monster怪獸V
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-safari">
+            <div class="row feature">
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">石头(Stone)<span class="text-muted">五月天吉他手</span></h2>
+
+                    <p class="lead">石锦航，1975年12月11日生于台北市，五月天吉他手，
+                        毕业于师大附中、淡江大学水环系肄业。高中就读于国立台湾师范大学附属高级中学。
+                        在校期间加入师大附中吉他社。后在师大附中吉他社相续结识了阿信、
+                        玛莎、怪兽开始了玩乐团的旅程。参加台湾音乐档案II、ㄞ国歌曲合辑、拥抱专辑制作
+                        <br/>新浪微博@
+                        <a href="http://weibo.com/u/2662321241?refer_flag=1001030201_&is_all=1" target="_blank">
+                            五月天頑石V
+                        </a>
+                        </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/3-stone.jpg"
+                         alt="Stone">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-opera">
+            <div class="row feature">
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/4-masa.jpg"
+                         alt="Matthew Tsai">
+                </div>
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">玛莎(Matthew Tsai)<span class="text-muted">五月天贝斯手</span>
+                    </h2>
+
+                    <p class="lead">蔡升晏，1977年4月25日出生于高雄市，乐团五月天的贝斯手、作曲人，
+                        毕业于台北师大附中、辅仁大学社会系肄业。蔡升晏高中就读于国立台湾师范大学附属高级中学。在校期间加入师大附中吉他社。
+                        后在师大附中吉他社相续结识了阿信、玛莎、石头开始了玩乐团的旅程。
+                        <br/>新浪微博@
+                        <a href="http://weibo.com/u/2661627953?refer_flag=1001030201_&is_all=1" target="_blank">
+                            Mayday瑪莎V
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-ie">
+            <div class="row feature">
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">冠佑(Ming) <span class="text-muted">五月天乐团鼓手</span></h2>
+
+                    <p class="lead">刘谚明，1973年07月28日生于台湾苗栗，1999年加入五月天乐团担任鼓手。
+                        毕业自国光艺校，擅长鼓和键盘。
+                        曾在“当我们混在一起 Final Home”北京站演唱会上公开向女友求婚。冠佑与王行芝从小学到高中念的都是同一所学校，
+                        却在毕业后因父母介绍才认识。2006年6月25日，冠佑与其未婚妻王行芝在台湾苗栗结婚。
+                        <br/>新浪微博@
+                        <a href="http://weibo.com/u/2263684130?refer_flag=1001030101_&is_hot=1" target="_blank">
+                            冠佑Ming
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/5-ming.jpg"
+                         alt="Ming">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 关于 -->
+    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title" id="modal-label">关于</h4>
+                </div>
+                <div class="modal-body">
+                    <p>五月天，台湾摇滚乐团，由乐队团长兼吉他手怪兽、主唱阿信、吉他手石头、贝斯玛莎和
+                        鼓手冠佑组成，前身为“So Band”乐团，在1997年3月29日更名为“五月天”。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+
+        <p>&copy; 2016 陈楠</p>
+    </footer>
+
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
