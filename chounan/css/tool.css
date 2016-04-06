@@ -1,0 +1,54 @@
+	/*清除默认样式*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+dl,
+dd,
+textarea,
+form,
+input,
+select,
+body{
+	margin:0;
+	padding:0;	
+	}
+	/*清浮动*/
+.clear:after{
+	clear:both;
+	content:'';
+	display:block;
+	}
+.clear{
+	zoom:1;
+	}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.abs{
+	position: absolute;
+}
+.auto{
+	margin: 0 auto;
+}
+.m10{
+	margin: 0 10px;
+}
+
+
+
+
+
