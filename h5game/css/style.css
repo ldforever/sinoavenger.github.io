@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*css Document*/
+body div section {margin: 0;padding: 0;}
+body{font-family: "微软雅黑"}
+
+section{width: 100%;height:100%;position: relative;}
+.bgColor{background-color: #2d4081;}
+.Bg-page1{ width: 429px;height: 429px;border: 1px solid #1f2b57;
+background-color: #233264;position: absolute;top: 50%;left: 50%;
+margin:-214px 0 0 -214px;border-radius: 50%; box-shadow: 0px 0px 0px 113px #283972,
+0px 0px 0px 114px #223161,0px 0px 0px 193px #273971,0px 0px 0px 254px #2c3f7e,
+0px 0px 0px #2a3c79;}
