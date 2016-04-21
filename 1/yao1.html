@@ -93,10 +93,10 @@
             document.getElementById("result").className = "result result-show";
             document.getElementById("loading").className = "loading";
         }, 1000);*/
-        var oHand=document.gerElementById('hand');
+
         setTimeout(function(){
             //document.getElementById("hand").className = "hand";
-            oHand.className = "hand .hand-animate";
+            document.getElementById("hand").style.WebkitAnimation="hand_move infinite 2s";
         }, 1000);
     }
 </script>
