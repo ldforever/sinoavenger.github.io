@@ -70,7 +70,7 @@
 </head>
 <body>
     
-    <div id="hand" class="hand hand-animate"></div>
+    <div id="hand" class="hand"></div>
     <div id="loading" class="loading"></div>
     <div id="result" class="result">
         <div class="pic"></div>
@@ -120,6 +120,9 @@
             document.getElementById("loading").className = "loading";
         }, 1000);
     }
+        document.getElementById("hand").onclick=function(){
+            document.getElementById("hand").style.WebkitAnimation=" hand_move 1s 0.5s";
+        }
     </script>
 
 </body>
