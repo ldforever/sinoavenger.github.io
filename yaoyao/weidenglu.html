@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content="width=device-width,minimum-scale=1,maximum-scale=1.0,user-scalable=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Expires" content="0">
+  <title>517摇一摇登录页面</title>
+  <script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/choujiangstyle.css">
+  <script type="text/javascript">
+    var _self = this;
+    _self.width = 640; // 璁剧疆榛樿鏈€澶у搴�
+    _self.fontSize = 100; // 榛樿瀛椾綋澶у皬
+    _self.widthProportion = function() {
+      var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+      return p > 1 ? 1 : p < 0.5 ? 0.5 : p;
+    };
+    _self.changePage = function() {
+      document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+    }
+    _self.changePage();
+    window.addEventListener('resize', function() {
+      _self.changePage();
+    }, false);
+  </script>
+</head>
+
+<body>
+  <div id='container_l' style='background:url("images/yyd1.jpg");background-size: cover;'>
+
+    <div class='boxcontaner'>
+      <img src="images/yy2.png">
+    </div>
+    <p class='chancesego'><b style="width:80px;display:inline-block;text-align:right;">300MB流量包今天剩余</b><span>251649</span>个</p>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <p class="denglu">
+      用联通手机号码登录
+      <br>才能摇奖得流量包哦
+
+    </p>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <p class="record record1" style="font-size:20px!important;"><a href="#">马上登陆</a></p>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='space_10'></div>
+    <div class='rulesactivity'>
+      <div class='rulestopic'>
+        <hr class='bordergap' />
+        <span style="background-color:#362b43;">活动规则</span>
+      </div>
+      <div class='detailrules'>
+        <p>1、2016年5月17日至5月23日，处于正常使用状态的联通手机用户可通过联通手机营业厅客户端摇一摇获得300MB省内流量。本次活动不适于预付费20元卡用户、上网卡用户、流量随意享套餐用户及主副卡业务副卡用户。</p>
+        <p>2、每个手机号码每天有5次摇奖机会。</p>
+        <p>3、用户摇一摇赢的300MB省内流量，并成功激活后，流量才能生效使用。成功激活后将通过短信通知用户。成功领取的300MB流量，请在2016年5月17日0时--5月26日24时内完成激活，逾期未激活流量将自动作废。</p>
+        <p>4、用户可以通过查看"我的中奖纪录"重新激活300MB流量包。</p>
+        <p>5、一个手机号码只能领取并使用一个300MB流量包，仅限2016年6月内使用。</p>
+        <p>6、部分用户由于业务原因无法成功激活300MB流量，具体请以当地联通公司业务规则为准。</p>
+      </div>
+      <div class='checkmychark'>
+        <a href="detailinfoshow.html">中奖信息查询&gt;&gt;</a>
+      </div>
+      <p class='nochoice' id='puple2'>未中奖（无抽奖机会）</p>
+      <p class='nochoice' id='puple3'>未中奖（有抽奖机会）</p>
+      <p class='nochoice' id='puple4'>未充值</p>
+    </div>
+    <div class='space_20'></div>
+    <div class='poubg'></div>
+    <div class='prizepoup' id='getprize'>
+      <div class='prizepoup_showwindow'>
+        <p class='topicaward'>恭喜您抽中ＸＸ！</p>
+        <p class='congraT'>嘻嘻，最近是不是扶老奶奶过马路了？请填写联系地址和电话，工作人员将尽快邮寄给您哦！</p>
+        <div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+          <img src="images/choujiangbtn3.png">
+        </div>
+        <div class='space_10'></div>
+        <img src="images/closebox.png" class='closewindow'>
+      </div>
+    </div>
+
+    <div class='prizepoup' id='noprize_nochoce'>
+      <div class='prizepoup_showwindow'>
+        <div class='space_100'></div>
+        <p class='congraT_no'>差点中奖，好遗憾……</p>
+        <p class='congraT_no'>不要气馁，再充一次接着抽！</p>
+        <div class='space_90'></div>
+        <div class="gorechargebtn2">
+          <img src="images/choujiangbtn4.png">
+        </div>
+        <div class='space_10'></div>
+        <img src="images/closebox.png" class='closewindow'>
+      </div>
+    </div>
+
+    <div class='prizepoup' id='noprize_haschoce'>
+      <div class='prizepoup_showwindow'>
+        <div class='space_100'></div>
+        <p class='congraT_no' style='text-align:left;'>真的真的不想对您说：差点中奖……亲，要不去洗个手先再来抽？</p>
+        <div class='space_90'></div>
+        <div class="gorechargebtn2" id='goaheadfor_award'>
+          <img src="images/choujiangbtn5.png">
+        </div>
+        <div class='space_10'></div>
+        <img src="images/closebox.png" class='closewindow'>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    $(function() {
+      var windH = $(window).height();
+      $('#container_l').css('min-height', windH);
+      $('.closewindow,#goaheadfor_award').bind('click', function() {
+        $(this).parents('.prizepoup').hide();
+        $('.poubg').hide();
+      })
+      $('#chestbtn').bind('click', function() {
+        $('#getprize').show();
+        $('.poubg').show();
+      });
+      $('#puple2').bind('click', function() {
+        $('#noprize_nochoce').show();
+        $('.poubg').show();
+      })
+      $('#puple3').bind('click', function() {
+        $('#noprize_haschoce').show();
+        $('.poubg').show();
+      })
+      $('#puple4').bind('click', function() {
+        $('#chongzhibtn').show();
+        $('#chongzhibtn').siblings('img').hide();
+        $('.chancesego').children('span').text('0');
+      })
+    })
+  </script>
+</body>
+
+</html>

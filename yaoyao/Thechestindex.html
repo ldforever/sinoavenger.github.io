@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<meta name='viewport' content="width=device-width,minimum-scale=1,maximum-scale=1.0,user-scalable=0" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Expires" content="0">
+	<title>517摇一摇首页</title>
+	<script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+    <script type="text/javascript" src="js/shock.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/choujiangstyle.css">
+	<style>
+			.pop_lll{
+					position: absolute;
+					top:0;
+					left: 0;
+					min-width: 320px;
+					max-width: 640px;
+					margin: 0 auto;
+					font-family: "微软雅黑";
+					width: 100%;
+			}
+			.poubg{
+					opacity: 0.9;
+			}
+			.prizepoup{
+					background: none;
+			}
+			.prizepoup_showwindow{
+					background: none;
+			}
+			.closewindow{
+					top: 0.14rem;
+					right:0.14rem;
+			}
+			.true_lll{
+					padding-top: 1rem;
+					text-align: center;
+			}
+			.true_lllimg{
+					width: 0.8rem;
+			}
+
+			.congraT{
+
+					font-size: 0.3rem;
+					text-align: center;
+					font-weight: normal;
+			}
+			.whitecolor{
+					color: #fce9d0;
+			}
+			.congraT2{
+					font-size: 0.4rem;
+					padding-top: 2.3rem;
+			}
+			.btnchoujiang_lll{
+					width: 4.2rem;
+					height: 0.8rem;
+					border-radius: 1rem;
+					background-color: #f97455;
+					border: none;
+					outline: none;
+					color: white;
+					font-size: 0.3rem;
+			}
+			.btnchoujiang_lll2{
+					background:none;
+					border: solid 1px #f97455;
+					color: #f97455;
+			}
+	</style>
+    <script type="text/javascript">
+        var _self =  this ;
+        _self.width = 640; // 璁剧疆榛樿鏈€澶у搴�
+        _self.fontSize = 100; // 榛樿瀛椾綋澶у皬
+        _self.widthProportion =  function (){ var p = (document.body&&document.body.clientWidth||document.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p>1?1:p<0.5?0.5:p;};
+        _self.changePage =  function (){
+        document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px !important");
+        }
+        _self.changePage();
+        window.addEventListener('resize', function (){_self.changePage();}, false );
+    </script>
+</head>
+<body>
+    <audio id="audio"  controls="controls" loop="false" autoplay="autoplay">
+        亲，您的浏览器不支持html5的audio标签
+    </audio>
+    <div id='container_l' style='background:url("images/yy1.png");background-size: cover;'>
+
+			<div class='boxcontaner'>
+					<img src="images/yy2.png">
+			</div>
+  <p class='chancesego'><b style="width:80px;display:inline-block;text-align:right;">300MB流量包今天剩余</b><span>0</span>个</p>
+
+        <div class='gorechargebtn2'>
+            <img src="images/yy3.png">
+						<!-- id='chestbtn' -->
+  <p class='chancesego cs'>今天您还有<span style="color:#e3be12;font-size:20px;">5</span>次摇奖机会</p>
+        </div>
+        <div class='space_10'></div>
+				  <div class='space_10'></div>
+<p class="record" style="font-size:16px!important;"><a href="#" id="a">我的中奖纪录&nbsp;>></a></p>
+<div class='space_10'></div>
+	<div class='space_10'></div>
+        <div class='rulesactivity'>
+            <div class='rulestopic'>
+                <hr class='bordergap' />
+                <span>活动规则</span>
+            </div>
+            <div class='detailrules'>
+                <p>1、2016年5月17日至5月23日，处于正常使用状态的联通手机用户可通过联通手机营业厅客户端摇一摇获得300MB省内流量。本次活动不适于预付费20元卡用户、上网卡用户、流量随意享套餐用户及主副卡业务副卡用户。</p>
+                <p>2、每个手机号码每天有5次摇奖机会。</p>
+                <p>3、用户摇一摇赢的300MB省内流量，并成功激活后，流量才能生效使用。成功激活后将通过短信通知用户。成功领取的300MB流量，请在2016年5月17日0时--5月26日24时内完成激活，逾期未激活流量将自动作废。</p>
+								  <p>4、用户可以通过查看"我的中奖纪录"重新激活300MB流量包。</p>
+									  <p>5、一个手机号码只能领取并使用一个300MB流量包，仅限2016年6月内使用。</p>
+										  <p>6、部分用户由于业务原因无法成功激活300MB流量，具体请以当地联通公司业务规则为准。</p>
+            </div>
+            <div class='checkmychark'>
+                <a href="detailinfoshow.html">中奖信息查询&gt;&gt;</a>
+            </div>
+            <p class='nochoice' id='puple2'>流量包</p>
+            <p class='nochoice' id='puple3'>其他奖品</p>
+            <p class='nochoice' id='puple4'>未中奖（无抽奖机会）</p>
+						<p class='nochoice' id='puple5'>未中奖</p>
+						<p class='nochoice' id='puple6'>激活成功</p>
+						<p class='nochoice' id='puple7'>激活处理中</p>
+						 <p class='nochoice' id='puple8'>激活失败，可再次激活</p>
+		            <p class='nochoice' id='puple9'>激活失败，不可再次激活</p>
+
+        </div>
+        <div class='space_20'></div>
+        <div class='poubg'></div>
+
+				<div class='prizepoup pop_lll' id='getprize1'>
+						<div class='prizepoup_showwindow'>
+
+								<p class='congraT whitecolor congraT2'>系统反馈失败提示</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+											 告诉小伙伴，赢百万流量
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize2'>
+						<div class='prizepoup_showwindow'>
+							 <div class="true_lll">
+									 <img src="images/true_lll.png" class="true_lllimg">
+							 </div>
+								<p class='congraT congraT2'>恭喜 ! 您的300M流量已经成功激活，六月份生效</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												告诉小伙伴，赢百万流量
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize3'>
+						<div class='prizepoup_showwindow'>
+							 <div class="true_lll">
+									 <img src="images/true_lll.png" class="true_lllimg">
+							 </div>
+								<p class='congraT congraT2'>300M流量包已放入您的账户，成功激活后次月生效</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												告诉小伙伴，赢百万流量
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize4'>
+						<div class='prizepoup_showwindow'>
+								<p class='congraT pad_top300'>没摇到哎</p>
+								<p class='congraT congraT2_lll'>就差一点点~~</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												换个姿势再接再励吧<span class="time_lll">（3）</span>
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize5'>
+            <div class='prizepoup_showwindow'>
+                <p class='topicaward pad_lll'>今天摇奖机会用完了 明天再来吧~</p>
+                <div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+                    <button class="btnchoujiang_lll">
+                        告诉小伙伴，赢百万流量
+                    </button>
+                    <button class="btnchoujiang_lll btnchoujiang_lll2">
+                        5.17网购节，5折起！ GO>>
+                    </button>
+                </div>
+                <div class='space_10'></div>
+                <img src="images/close_lll.png" class='closewindow'>
+            </div>
+        </div>
+				<div class='prizepoup pop_lll' id='getprize6'>
+						<div class='prizepoup_showwindow'>
+
+								<p class='congraT whitecolor congraT2'>系统反馈失败提示</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												再次激活
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize7'>
+						<div class='prizepoup_showwindow'>
+
+								<p class='congraT whitecolor congraT2'>您的激活请求已受理</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												告诉小伙伴，赢百万流量
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+				<div class='prizepoup pop_lll' id='getprize8'>
+						<div class='prizepoup_showwindow'>
+								<img src="images/piaodai.png" class="piaodai_lll">
+								<p class='topicaward'>恭喜您!</p>
+								<p class='congraT'>您获得XXX代金券一份，兑换码为XXXXXXXXXXX</p>
+								<div class="gorechargebtn2" onclick='window.location.href="writeinfo.html"'>
+										<button class="btnchoujiang_lll">
+												炫耀一下
+										</button>
+										<button class="btnchoujiang_lll btnchoujiang_lll2">
+												5.17网购节，5折起！ GO>> or 再摇一次
+										</button>
+								</div>
+								<div class='space_10'></div>
+								<img src="images/close_lll.png" class='closewindow'>
+						</div>
+				</div>
+        <div id="filter" class="filter">
+            <a href="javascript:;">开始抽奖吧</a>
+        </div>
+
+    </div>
+     <script type="text/javascript">
+        $(function(){
+            var windH = $(window).height();
+            $('#container_l').css('min-height',windH);
+            $('.closewindow,#goaheadfor_award').bind('click',function(){
+                $(this).parents('.prizepoup').hide();
+                $('.poubg').hide();
+            })
+            // $('#chestbtn').bind('click',function(){
+            //     $('#getprize').show();
+            //     $('.poubg').show();
+            // });
+            $('#puple2').bind('click',function(){
+                $('#getprize3').show();
+                $('.poubg').show();
+            })
+            $('#puple3').bind('click',function(){
+                $('#noprize_haschoce').show();
+                $('.poubg').show();
+            })
+            $('#puple4').bind('click',function(){
+                $('#chongzhibtn').show();
+                $('#chongzhibtn').siblings('img').hide();
+                $('.chancesego').children('span').text('0');
+            })
+
+        })
+
+
+        /*document.getElementById("a").onclick=function(){
+
+                document.getElementById("filter").style.display="block";
+                document.getElementById("audio").src='http://xunlei.sc.chinaz.com/files/download/sound1/201410/5012.mp3'
+                document.getElementById("audio").play();
+                setTimeout(function(){
+                    document.getElementById("audio").src='';
+                },1000);
+
+        }*/
+        var SHAKE_THRESHOLD = 800;
+        var last_update = 0;
+        var x = y = z = last_x = last_y = last_z = 0;
+
+        if (window.DeviceMotionEvent) {
+            window.addEventListener('devicemotion', deviceMotionHandler, false);
+        } else {
+            alert('本设备不支持devicemotion事件');
+        }
+
+        function deviceMotionHandler(eventData) {
+            var acceleration = eventData.accelerationIncludingGravity;
+            var curTime = new Date().getTime();
+
+            if ((curTime - last_update) > 100) {
+                var diffTime = curTime - last_update;
+                last_update = curTime;
+                x = acceleration.x;
+                y = acceleration.y;
+                z = acceleration.z;
+                var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
+                var status = document.getElementById("status");
+
+                if (speed > SHAKE_THRESHOLD) {
+                    doResult();
+                }
+                last_x = x;
+                last_y = y;
+                last_z = z;
+            }
+        }
+
+        function doResult() {
+            document.getElementById("filter").style.display="block";
+            document.getElementById("audio").src='http://xunlei.sc.chinaz.com/files/download/sound1/201410/5012.mp3'
+            document.getElementById("audio").play();
+            setTimeout(function(){
+                document.getElementById("audio").src='';
+            },1000);}
+    </script>
+</body>
+</html>
