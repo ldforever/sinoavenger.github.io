@@ -326,8 +326,8 @@
                 z = acceleration.z;
                 var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
                 var status = document.getElementById("status");
-
-                if (speed > SHAKE_THRESHOLD) {
+                var dis=$('#filter').css('display');
+                if (speed > SHAKE_THRESHOLD&&dis=='none') {
                     doResult();
                 }
                 last_x = x;
