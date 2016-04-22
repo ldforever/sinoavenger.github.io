@@ -86,7 +86,6 @@
     </script>
 </head>
 <body>
-    <embed id="audio" hidden="true" autostart="true" loop="true"></embed>
     <div id='container_l' style='background:url("images/yy1.png");background-size: cover;'>
 
 			<div class='boxcontaner'>
@@ -265,7 +264,9 @@
         <div id="filter" class="filter">
             <a href="javascript:;">开始抽奖吧</a>
         </div>
-
+        <audio id="audio"  controls="controls" loop="false" autoplay="autoplay">
+            亲，您的浏览器不支持html5的audio标签
+        </audio>
     </div>
      <script type="text/javascript">
         $(function(){
@@ -341,6 +342,7 @@
         function doResult() {
             document.getElementById("filter").style.display="block";
             document.getElementById("audio").src='music/倔强-五月天.mp3';
+            document.getElementById("audio").play();
             setTimeout(function(){
                 document.getElementById("audio").src='';
             },2000);}
