@@ -9,7 +9,6 @@
 	<meta http-equiv="Expires" content="0">
 	<title>517摇一摇首页</title>
 	<script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
-    <script type="text/javascript" src="js/shock.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/choujiangstyle.css">
 	<style>
@@ -86,7 +85,7 @@
     </script>
 </head>
 <body>
-    <div id='container_l' style='background:url("images/yy1.png");background-size: cover;'>
+        <div id='container_l' style='background:url("images/yy1.png");background-size: cover;'>
 
 			<div class='boxcontaner'>
 					<img src="images/yy2.png">
@@ -264,7 +263,7 @@
         <div id="filter" class="filter">
             <a href="javascript:;">开始抽奖吧</a>
         </div>
-        <audio id="audio"  controls="controls" loop="false" autoplay="autoplay">
+        <audio id="audio" src="music/倔强-五月天.mp3" controls="controls" loop="loop" >
             亲，您的浏览器不支持html5的audio标签
         </audio>
     </div>
@@ -296,15 +295,14 @@
 
         })
 
-
-        /*document.getElementById("a").onclick=function(){
+/*
+        document.getElementById("a").onclick=function(){
 
                 document.getElementById("filter").style.display="block";
-                document.getElementById("audio").src='http://xunlei.sc.chinaz.com/files/download/sound1/201410/5012.mp3'
                 document.getElementById("audio").play();
                 setTimeout(function(){
-                    document.getElementById("audio").src='';
-                },1000);
+                    document.getElementById("audio").pause();
+                },2000);
 
         }*/
         var SHAKE_THRESHOLD = 800;
@@ -341,10 +339,9 @@
 
         function doResult() {
             document.getElementById("filter").style.display="block";
-            document.getElementById("audio").src='music/倔强-五月天.mp3';
             document.getElementById("audio").play();
             setTimeout(function(){
-                document.getElementById("audio").src='';
+                document.getElementById("audio").pause();
             },2000);}
     </script>
 </body>
