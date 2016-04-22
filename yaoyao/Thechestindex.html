@@ -263,7 +263,7 @@
         <div id="filter" class="filter">
             <a href="javascript:;">开始抽奖吧</a>
         </div>
-        <audio id="audio" style="width: 0;height: 0;" src="music/倔强-五月天.mp3" controls="controls" loop="loop" preload="load">
+        <audio id="audio" style="width: 0;height: 0;" src="music/倔强-五月天.mp3" controls="controls" loop="loop" preload="auto">
             亲，您的浏览器不支持html5的audio标签
         </audio>
     </div>
@@ -341,7 +341,8 @@
             document.getElementById("audio").play();
             setTimeout(function(){
                 document.getElementById("audio").pause();
-            },2000);}
+            },2000);
+        }
     </script>
 </body>
 </html>
